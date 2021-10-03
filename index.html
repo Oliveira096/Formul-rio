@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <h1>Formulário</h1><br>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="Nome"><strong> Nome</strong></label>
+                <input type="text" id="Nome" required>
+            </div>
+            <div class="campo">
+
+                <label for="sobre"><strong>Sobrenome</strong></label>
+                <input type="text" id="sobre">
+            </div>
+        </fieldset>
+
+
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" id="email" required><br>
+        </div>
+
+        <div class="campo">
+            <label><strong>Estado</strong></label>
+            <select id="estado">
+                <option selected disabled>Selecione</option>
+                <option>RJ</option>
+                <option>MG</option>
+                <option>SP</option>
+                <option>ES</option>
+                <option>SE</option>
+                <option>DF</option>
+                <option>RO</option>
+                <option>SC</option>
+            </select>
+
+        </div>
+
+        <label for=""><strong>Disponibilidade:</strong></label><br>
+        <label>Manhã</label>
+        <input type="radio" name="opc1">
+        <label>Tarde</label>
+        <input type="radio" name="opc1">
+        <label>Noite</label>
+        <input type="radio" name="opc1">
+
+        <div>
+            <button>Enviar</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
